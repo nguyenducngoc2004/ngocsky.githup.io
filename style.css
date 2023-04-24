@@ -1,0 +1,124 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  background: ;
+  text-align: center;
+}
+
+#header {
+  background: linear-gradient(to right, rgb(253, 164, 175), rgb(244, 63, 94));
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 70px;
+}
+
+img {
+  width: 164px;
+  height: 51px;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+#nav li a {
+  text-decoration: none;
+  line-height: 70px;
+  font-size: 25px;
+}
+
+
+.container1 {
+  text-align: center;
+}
+
+
+/* ảnh */
+.img-container {
+  text-align: center;
+  /* canh giữa phần tử trong container */
+  position: relative;
+  /* để tạo hover effect */
+  margin-top: 120px;
+}
+
+.img-container img {
+  width: 59%;
+  height: 63%;
+  display: block;
+  padding-left: 19%;
+}
+
+.img-container p {
+  margin-top: 36px;
+  /* khoảng cách giữa ảnh và đoạn văn bản */
+  font-size: 25px;
+}
+
+.img-container img:hover {
+  opacity: 0.8;
+  /* làm mờ hình ảnh */
+  transform: scale(1.1);
+  /* làm to hình ảnh */
+}
+
+.y {
+  text-align: justify;
+  line-height: 1.5;
+  margin: 1px 281px 1px;
+}
+
+#footer {
+  margin-top: 200px;
+  height: 150px;
+  background-color: #ea7617;
+}
+
+#footer .text-footer {}
+
+#footer .text-dcr {
+  list-style: none;
+  position: absolute;
+  margin: -120px 0 0 500px;
+}
+
+#footer .text-dcr li {
+  color: #fff;
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.ft-img {
+  width: 120px;
+  height: 120px;
+  float: right;
+  margin-right: 120px;
+  margin-top: 12px;
+}
+
+.footer-img {
+  width: 150px;
+  height: 120px;
+  margin-left: -698px;
+  margin-top: 10px;
+}
+
+.xem {
+  float: right;
+  position: absolute;
+  margin-left: 920px;
+  margin-top: 20px;
+  background-color: #fff;
+  text-decoration: none;
+}
